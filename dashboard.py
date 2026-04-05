@@ -90,7 +90,7 @@ try:
     return_rate = (filtered_df['is_returned'].sum() / len(filtered_df) * 100) if len(filtered_df) > 0 else 0
     avg_delivery = filtered_df['delivery_days'].mean()
 
-    m1.metric("总营收 (Revenue)", f"¥{total_rev:,.0f}")
+    m1.metric("总营收 (Revenue)", f"${total_rev:,.0f}")
     m2.metric("平均评分 (Rating)", f"{avg_rating:.2f}分")
     m3.metric("退货率 (Return Rate)", f"{return_rate:.1f}%")
     m4.metric("平均物流时效", f"{avg_delivery:.1f} 天")
