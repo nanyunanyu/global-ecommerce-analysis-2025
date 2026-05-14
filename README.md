@@ -62,9 +62,9 @@
    ```python
    streamlit run app.py
 ## 项目结构
-📦 ecommerce-sales-dashboard
- ┣  assets               # 存放 README 使用的图片资源
- ┣  app.py               # 主程序入口
- ┣  synthetic_ecommerce_sales_2025.csv  # 数据源文件
- ┣  requirements.txt     # 项目依赖
+ecommerce-sales-dashboard  
+ ┣  assets               # 存放 README 使用的图片资源  
+ ┣  app.py               # 主程序入口  
+ ┣  synthetic_ecommerce_sales_2025.csv  # 数据源文件  
+ ┣  requirements.txt     # 项目依赖  
  ┗  README.md            # 项目说明文档
