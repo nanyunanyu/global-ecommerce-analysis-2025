@@ -1,12 +1,10 @@
 # 全球电商销售多维分析面板 (Global E-Commerce Sales Dashboard)
 
-![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
+![Python](https://img.shields.io/badge/Python-3.10+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.20+-FF4B4B.svg)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine_Learning-orange.svg)
 ![Plotly](https://img.shields.io/badge/Plotly-Interactive_Charts-success.svg)
 
-![项目概览](assets/dashboard_overview.png)
-> *系统运行概览*
 
 ## 项目简介
 本项目是一个基于 Python 和 Streamlit 开发的**全球电商销售多维数据分析与预测系统**。系统不仅仅提供基础的业务指标（KPI）监控和多维数据可视化，更深度集成了基于 `Scikit-learn` 的机器学习算法，实现了客户分群（K-Means）与客户终身价值（CLV）预测。
