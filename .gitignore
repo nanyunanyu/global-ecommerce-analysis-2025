@@ -1,0 +1,15 @@
+.claude/
+.playwright-mcp/
+.superpowers/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+.env
+.env.*
+*.log
+.streamlit/secrets.toml
